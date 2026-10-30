@@ -1,0 +1,3 @@
+[
+  { "label": "Home", "before": "https://example.com/", "after": "https://example.org/" }
+]

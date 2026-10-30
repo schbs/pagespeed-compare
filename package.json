@@ -1,0 +1,13 @@
+{
+  "name": "pagespeed-compare",
+  "version": "1.0.0",
+  "description": "Before/after website speed comparison with Google PageSpeed Insights: several runs, the median and a Markdown table.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "compare": "node pagespeed-compare.mjs",
+    "test": "node --test test/pagespeed.test.mjs"
+  }
+}
